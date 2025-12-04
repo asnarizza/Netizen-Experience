@@ -1,12 +1,16 @@
-.DS_Store
-node_modules
-/dist
+# Node modules
+node_modules/
 
+# Build output
+dist/
 
-
-# local env files
+# Local environment files
 .env.local
 .env.*.local
+.env
+
+# System files
+.DS_Store
 
 # Log files
 npm-debug.log*
@@ -15,15 +19,14 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor directories and files
-.idea
-.vscode
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-node_modules/
-dist/
-.env
-.DS_Store
+# Git-specific files (you can leave this out if you prefer)
+.git
+.gitmodules
